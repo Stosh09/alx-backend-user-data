@@ -7,7 +7,7 @@ from uuid import uuid4
 
 
 class SessionAuth(Auth):
-    """ class SessionAuth base for session aunthentication """
+    """ class SessionAuth base for session authentication """
     user_id_by_session_id: Dict = {}
 
     def create_session(self, user_id: str = None) -> str:
